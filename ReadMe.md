@@ -1,5 +1,7 @@
 # _***Sistema de ventas de un SkateShop (Tienda de Patinetas)***_
 
+![portada](./img/portada.jpg)
+
 ## _***1. DESCRIPCION DEL SISTEMA DE VENTAS***_
 
 ### En esta sección describiremos el funcionamiento de las ventas en un SkateShop para asi entender como es el flujo de los datos de las ventas y de los balances generales contables de la empresa, el skateshop tiene sucursales en 5 países de su region y distribuye sus productos en 21 ciudades dentro de estos países, Este se encarga de distribuir patinetas de diferentes marcas, modelos, tallas y tecnologías que se ajustan a las características de cada consumidor, para esto requerimos diseñar una base de datos donde podamos almacenar toda esta informacion y asi tener un mayor entendimiento de como funciona la parte de ventas del skateshop
