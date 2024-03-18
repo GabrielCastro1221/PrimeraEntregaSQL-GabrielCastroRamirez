@@ -2,23 +2,23 @@
 
 ## _***1. DESCRIPCION DEL SISTEMA DE VENTAS***_
 
-### En esta sección describiremos la problematica de un SkateShop para asi entender como es el flujo de los datos de las ventas y de los balances generales contables de la empresa, el skateshop tiene sucursales en 5 países de su region y distribuye sus productos en 21 ciudades dentro de estos países, Este se encarga de distribuir patinetas de diferentes marcas, modelos, tallas y tecnologías que se ajustan a las características de cada consumidor, para esto requerimos diseñar una base de datos donde podamos almacenar todos estos datos y asi tener un mayor entendimiento de estos
+### En esta sección describiremos el funcionamiento de las ventas en un SkateShop para asi entender como es el flujo de los datos de las ventas y de los balances generales contables de la empresa, el skateshop tiene sucursales en 5 países de su region y distribuye sus productos en 21 ciudades dentro de estos países, Este se encarga de distribuir patinetas de diferentes marcas, modelos, tallas y tecnologías que se ajustan a las características de cada consumidor, para esto requerimos diseñar una base de datos donde podamos almacenar toda esta informacion y asi tener un mayor entendimiento de como funciona la parte de ventas del skateshop
 
 ## _***1.1. CLIENTES:***_
 
 ### La empresa tiene 3 tipos de clientes potenciales
 
-### Franquicias de SkateShops, SkateShops Grandes, SkateShops Pequeños
+### Franquicias de SkateShops, SkateShops Grandes, SkateShops Pequeños a los cuales se distribuyen los productos que ordenan
 
 ## _***1.2. METODOS DE PAGO:***_
 
-### La empresa a su vez ofrece a dichos clientes varios métodos de pago a la hora de adquirir sus productos
+### La empresa a su vez ofrece a dichos clientes varios métodos de pago a la hora de adquirir sus productos entre ellos podemos encontrar
 
 ### Efectivo, Crédito, Debito, Cheques
 
 ## _***1.3. FACTURACIÓN:***_
 
-### Una vez el comprador decide hacer el pago del pedido al skateShop, este genera una factura de compra donde contendrá todos los datos de los productos adquiridos por el cliente, La factura será entregada al comprador de forma física y a su vez esta factura será almacenada en la base de datos para tener un registro de todas las ventas realizadas a lo largo de tiempo
+### Una vez el comprador decide hacer el pago del pedido al skateShop, este genera una factura de compra donde se guardaran todos los datos de los productos adquiridos por el cliente, La factura será entregada al comprador de forma física y a su vez esta factura será almacenada en la base de datos para tener un registro de todas las ventas realizadas a lo largo de tiempo
 
 ## _***1.4. EMPRESAS DE ENVIOS:***_
 
@@ -28,7 +28,7 @@
 
 ## _***1.5. METODOS DE PAGO:***_
 
-### Efectivo, Credito, Tranferencia, Cheque
+### entre losmetodos de pago que ofrece el skateShop se pueden encontrar los siguientes: Efectivo, Credito, Tranferencia, Cheque
 
 ## _***1.6. PRODUCTO:***_
 
@@ -42,7 +42,7 @@
 
 ### Alta, media, baja
 
-### La base de datos del skateshop nos debe permitir almacenar todos estos datos generados en las ventas para asi gestionar el flujo de los mismos de acuerdo a la facturacion obtenida por cada uno de los articulos que ofrece la empresa, esto es fundamental para ver cual es el comportamiento de las ventas a lo lardo del tiempo
+### La base de datos del skateshop nos debe permitir almacenar todos estos datos generados en las ventas para asi gestionar el flujo de los mismos de acuerdo a la facturacion obtenida por cada uno de los articulos que ofrece la empresa, esto es fundamental para ver como es el comportamiento de las ventas a lo lardo del tiempo
 
 ## 2. _***ENTIDADES Y ACTORES***_
 
@@ -54,7 +54,7 @@
 
 ## _***2.2. TECNOLOGIA***_
 
-### La entidad _***TECNOLOGIA***_ contiene la informacion de las tecnologias con las que estan fabricadas las patinetas que se ofrecen el el skateShop, esta entidad contiene los siguientes atributos
+### La entidad _***TECNOLOGIA***_ contiene la informacion de las tecnologias con las que estan fabricadas las patinetas que se ofrecen el skateShop, esta entidad contiene los siguientes atributos
 
 ### _***ID_Tecnologia***_ - _***Tecnologia***_
 
@@ -66,13 +66,13 @@
 
 ## _***2.4. MARCA***_
 
-### La entidad _***MARCA***_ contiene la informacion de todas las marcas que ofrece la empresa a sus clientes, esta entidd contiene los siguientes atributos
+### La entidad _***MARCA***_ contiene la informacion de todas las marcas que ofrece la empresa a sus clientes, esta entidad contiene los siguientes atributos
 
 ### _***ID_Marca***_ - _***Marca***_
 
-## _***2.5. EMPRESAS_DE_ENVIO***_
+## _***2.5. ENVIO***_
 
-### La entidad _***EMPRESAS_DE_ENVIO***_ contiene la informacion de las empresas por medio las cuales el skateShop realiza los envios de los productos a sus compradores, esta entidad contiene los siguientes atributos
+### La entidad _***ENVIO***_ contiene la informacion de las empresas por medio las cuales el skateShop realiza los envios de los productos a sus compradores, esta entidad contiene los siguientes atributos
 
 ### _***ID_Envio***_ - _***Envio***_
 
@@ -102,7 +102,7 @@
 
 ## _***2.10. TIPO_PAGO***_
 
-### La entidad _***TIPO_PAGO***_ contiene toda la informacion sobre los metodos de pago que loa clientes de la empresa pueden elegir para adquirir los articulos ofrecidos por la empresa, este entidad contiene los siguientes atributos
+### La entidad _***TIPO_PAGO***_ contiene toda la informacion sobre los metodos de pago que los clientes de la empresa pueden elegir para adquirir los articulos ofrecidos por la empresa, este entidad contiene los siguientes atributos
 
 ### _***ID_Pago***_ - _***Tipo_pago***_
 
@@ -110,9 +110,9 @@
 
 ### La entidad _***CLIENTE***_ contiene toda la información de los clientes que compran los productos de la empresa, para asi poder hacer el envio correspondiente, esta entidad contiene los siguientes atributos
 
-### _***- ID_Cliente***_ - _***ID_Envio***_ - _***ID_Pais***_ - _***ID_Ciudad***_ - _***Nombre_Cliente***_
+### _***- ID_Cliente***_ - _***ID_Envio***_ - _***ID_Pais***_ - _***ID_Ciudad***_ - _***Nombre_Cliente***_ - _***EMAIL***_
 
-## _***2.12. PRODUCTO***_
+## _***2.12. ARTICULO***_
 
 ### Contiene toda la información de los productos que ofrece la distribuidora de patinetas a sus clientes, Esta entidad contiene los siguientes atributos
 
@@ -136,58 +136,62 @@
 
 ## _***4. TABLAS USADAS EN LA BASE DE DATOS PARA EL SISTEMA DE FACTURACION***_
 
-## _***4.1. MATERIAL***_
+## _***4.1. MATERIAL:***_ Contiene la información del material con el que estan fabricadas las patinetas que se distribuyen por el skateShop, esta tabla se relaciona con la tabla _***ARTICULO***_
 
 ![Material](./img/Material.png)
 
-## _***4.2. TECNOLOGIA***_
+## _***4.2. TECNOLOGIA:***_ Contiene la informacion de las tecnologias con las que estan fabricadas las patinetas que se ofrecen el skateShop, esta tabla se realciona con la tabla _***ARTICULO***_
 
 ![Tecnologia](./img/tecnologia.png)
 
-## _***4.3. TALLA***_
+## _***4.3. TALLA:***_ Contiene la informacion de todas las tallas disponibles en los articulos ofrecidos por la empresa, esta  tabla se relaciona con la tabla _***ARTICULO***_
 
 ![Talla](./img/talla.png)
 
-## _***4.4. MARCA***_
+## _***4.4. MARCA:***_ Contiene la informacion de todas las marcas que ofrece la empresa a sus clientes, esta tabla se relaciona con la tabla _***ARTICULO***_
 
 ![Marca](./img/Marca.png)
 
-## _***4.5. ENVIO***_
+## _***4.5. ENVIO:***_ Contiene la informacion de las empresas por medio las cuales el skateShop realiza los envios de los productos a sus compradores, Esta tabla se relaciona con la tabla _***CLIENTE***_
 
 ![Envio](./img/envio.png)
 
-## _***4.6. CIUDAD***_
+## _***4.6. CIUDAD:***_ Contiene la informacion de las ciudades donde se localizan los clientes del skateShop, esta tabla se relaciona con las tablas _***CLIENTE & Facturacion***_
 
 ![Ciudad](./img/ciudad.png)
 
-## _***4.7. PAIS***_
+## _***4.7. PAIS:***_ Contiene la informacion de los paises donde se encuentran los clientes de la empresa, esta tabla se relaciona con las tablas _***CLIENTE & Facturacion***_
 
 ![Pais](./img/pais.png)
 
-## _***4.8. TIPO_CLIENTE***_
+## _***4.8. TIPO_CLIENTE:***_ Contiene la informacion sobre el tipo de clientes que tiene la empresa, esta tabla se relaciona con la tabla _***FACTURACION***_
 
 ![Tipo_Cliente](./img/tipo_cliente.png)
 
-## _***4.9. CATEGORIA_ARTICULO***_
+## _***4.9. CATEGORIA_ARTICULO:***_ Contiene toda la información de la gamma de los productos vendidos en la empresa, esta tabla se relaciona con la tabla _***ARTICULO***_
 
 ![Categoria_Articulo](./img/CAT_ART.png)
 
-## _***4.10. TIPO_PAGO***_
+## _***4.10. TIPO_PAGO:***_ Contiene toda la informacion sobre los metodos de pago que los clientes de la empresa pueden elegir para adquirir los articulos ofrecidos por la empresa, esta tabla se relaciona con las tablas _***FACTURA & FACTURACION***_
 
 ![tipo_pago](./img/tipopago.png)
 
-## _***4.11. CLIENTE***_
+## _***4.11. CLIENTE:***_ Contiene toda la información de los clientes que compran los productos de la empresa, esta tabla se relaciona con la tabla _***FACTURACION***_
 
 ![Cliente](./img/cliente.png)
 
-## _***4.12. ARTICULO***_
+## _***4.12. ARTICULO:***_ Contiene toda la informacion sobre los articulos que se venden en el skateShop, esta tabla se relaciona con la tabla _***FACTURACION***_
 
 ![articulo](./img/articulo.png)
 
-## _***4.13. FACTURA***_
+## _***4.13. FACTURA:***_ Contiene toda la información de los productos que ofrece la distribuidora de patinetas a sus clientes, esta tabla se relaciona con la tabla _***FACTURACION***_
 
 ![Factura](./img/FACT.png)
 
-## _***4.14. FACTURACION***_
+## _***4.14. FACTURACION:***_  Se comporta como la tabla de hechos de nuestro sistema y contiene toda la informacion sobre las ventas que se han generado en el ciclo de vida del skateShop
 
 ![Facturacion](./img/FACTURACION.png)
+
+## 5. MODELO RELACIONAL
+
+![Modelo_Relacional](./img/modelorelacional.png)
