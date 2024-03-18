@@ -136,18 +136,58 @@
 
 ## _***4. TABLAS USADAS EN LA BASE DE DATOS PARA EL SISTEMA DE FACTURACION***_
 
-## _***4.1. Material***_
+## _***4.1. MATERIAL***_
 
 ![Material](./img/Material.png)
 
-## _***4.2. Tecnologia***_
+## _***4.2. TECNOLOGIA***_
 
 ![Tecnologia](./img/tecnologia.png)
 
-## _***4.3. Talla***_
+## _***4.3. TALLA***_
 
 ![Talla](./img/talla.png)
 
-## _***4.4. Marca***_
+## _***4.4. MARCA***_
 
 ![Marca](./img/Marca.png)
+
+## _***4.5. ENVIO***_
+
+![Envio](./img/envio.png)
+
+## _***4.6. CIUDAD***_
+
+![Ciudad](./img/ciudad.png)
+
+## _***4.7. PAIS***_
+
+![Pais](./img/pais.png)
+
+## _***4.8. TIPO_CLIENTE***_
+
+![Tipo_Cliente](./img/tipo_cliente.png)
+
+## _***4.9. CATEGORIA_ARTICULO***_
+
+![Categoria_Articulo](./img/CAT_ART.png)
+
+## _***4.10. TIPO_PAGO***_
+
+![tipo_pago](./img/tipopago.png)
+
+## _***4.11. CLIENTE***_
+
+![Cliente](./img/cliente.png)
+
+## _***4.12. ARTICULO***_
+
+![articulo](./img/articulo.png)
+
+## _***4.13. FACTURA***_
+
+![Factura](./img/FACT.png)
+
+## _***4.14. FACTURACION***_
+
+![Facturacion](./img/FACTURACION.png)
