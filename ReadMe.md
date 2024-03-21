@@ -28,17 +28,13 @@
 
 ### DHL, FedEx, UPS, Schenker, TNT
 
-## _***1.5. METODOS DE PAGO:***_
-
-### entre losmetodos de pago que ofrece el skateShop se pueden encontrar los siguientes: Efectivo, Credito, Tranferencia, Cheque
-
-## _***1.6. PRODUCTO:***_
+## _***1.5. PRODUCTO:***_
 
 ### cada uno de los productos ofrecidos por el skateShop tienen diferentes caracteriscticas que se adaptan a cada persona en particular
 
 ### Material, Tecnologia, Marca, Talla
 
-## _***1.7. Categorias de los productos***_
+## _***1.6. Categorias de los productos***_
 
 ### Cada uno de los productos ofrecidos por el skateShop tiene varias categorias dependiendo de sus caracteristicas
 
