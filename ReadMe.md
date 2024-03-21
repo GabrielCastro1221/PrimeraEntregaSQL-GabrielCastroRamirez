@@ -34,7 +34,7 @@
 
 ### Material, Tecnologia, Marca, Talla
 
-## _***1.6. Categorias de los productos***_
+## _***1.6. CATEGORIA DE LOS PRODUCTOS***_
 
 ### Cada uno de los productos ofrecidos por el skateShop tiene varias categorias dependiendo de sus caracteristicas
 
