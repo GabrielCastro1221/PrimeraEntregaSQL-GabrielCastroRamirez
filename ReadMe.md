@@ -138,7 +138,7 @@
 
 ![Material](./img/Material.png)
 
-## _***4.2. TECNOLOGIA:***_ Contiene la informacion de las tecnologias con las que estan fabricadas las patinetas que se ofrecen el skateShop, esta tabla se realciona con la tabla _***ARTICULO***_
+## _***4.2. TECNOLOGIA:***_ Contiene la informacion de las tecnologias con las que estan fabricadas las patinetas que se ofrecen el skateShop, esta tabla se relaciona con la tabla _***ARTICULO***_
 
 ![Tecnologia](./img/tecnologia.png)
 
@@ -158,7 +158,7 @@
 
 ![Ciudad](./img/ciudad.png)
 
-## _***4.7. PAIS:***_ Contiene la informacion de los paises donde se encuentran los clientes de la empresa, esta tabla se relaciona con las tablas _***CLIENTE & Facturacion***_
+## _***4.7. PAIS:***_ Contiene la informacion de los paises donde se encuentran los clientes de la empresa, esta tabla se relaciona con las tablas _***CLIENTE & FACTURACION***_
 
 ![Pais](./img/pais.png)
 
